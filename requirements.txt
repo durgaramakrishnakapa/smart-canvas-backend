@@ -1,43 +1,18 @@
-# Core API Framework
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-pydantic==2.5.0
-
-# Environment and Configuration
-python-dotenv==1.0.0
-
-# Image Processing
-Pillow==10.1.0
-
-# AI/LLM Dependencies
-google-generativeai==0.3.2
-langgraph==0.0.26
-langchain-core==0.1.12
-
-# HTTP Requests and API Calls
-requests==2.31.0
-httpx==0.25.2
-
-# CORS and Middleware
-python-multipart==0.0.6
-
-# Data Processing and Utilities
-typing-extensions==4.8.0
-
-# Production Server Dependencies
-gunicorn==21.2.0
-
-# Security and Validation
-email-validator==2.1.0
-
-# JSON and Data Handling
-orjson==3.9.10
-
-# Async Support
-anyio==4.1.0
-
-# Development and Debugging (optional but useful)
-python-json-logger==2.0.7
-
-# Additional LangChain Dependencies
-langsmith==0.0.69
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+Pillow
+google-generativeai
+langgraph
+langchain-core
+requests
+httpx
+python-multipart
+typing-extensions
+gunicorn
+email-validator
+orjson
+anyio
+python-json-logger
+langsmith
